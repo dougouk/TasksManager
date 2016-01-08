@@ -16,7 +16,7 @@ public class TaskEditActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_task_edit);
-        setActionBar((Toolbar)findViewById(R.id.Toolbar));
+        //setActionBar((Toolbar)findViewById(R.id.Toolbar));
 
         long id = getIntent().getLongExtra(TaskEditActivity.EXTRA_TASKID, 0L);
         Fragment fragment = TaskEditFragment.newInstance(id);
