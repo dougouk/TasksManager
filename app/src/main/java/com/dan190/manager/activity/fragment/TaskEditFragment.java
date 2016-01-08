@@ -46,7 +46,7 @@ public class TaskEditFragment extends Fragment {
     @Override
     public void  onSaveInstanceState(Bundle outState){
         super.onSaveInstanceState(outState);
-        outState.putLong(TASK_ID, taskId);
+        outState.putLong("TASK_ID", taskId);
 
     }
 

@@ -26,7 +26,7 @@ public class TaskEditActivity extends Activity {
                     R.id.container,
                     fragment,
                     fragmentTag).commit();
-            )
+
         }
     }
 
